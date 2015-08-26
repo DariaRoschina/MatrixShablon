@@ -7,5 +7,3 @@ C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_
 C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.exe
 C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.pdb
 C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.Form2.resources
-C:\Users\Дарья\Desktop\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.exe
-C:\Users\Дарья\Desktop\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.pdb

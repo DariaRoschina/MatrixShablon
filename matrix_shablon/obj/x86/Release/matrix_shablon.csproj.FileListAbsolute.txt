@@ -1,0 +1,8 @@
+C:\lab\matrix_shablon\matrix_shablon\bin\Release\matrix_shablon.exe
+C:\lab\matrix_shablon\matrix_shablon\bin\Release\matrix_shablon.pdb
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Release\matrix_shablon.Form1.resources
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Release\matrix_shablon.Form2.resources
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Release\matrix_shablon.Properties.Resources.resources
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Release\matrix_shablon.csproj.GenerateResource.Cache
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Release\matrix_shablon.exe
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Release\matrix_shablon.pdb
