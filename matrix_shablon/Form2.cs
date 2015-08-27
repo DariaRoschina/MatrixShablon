@@ -33,19 +33,19 @@ namespace matrix_shablon
         private void button1_Click(object sender, EventArgs e)
         {
             CleanMatrix();
-            new CommGen(this).Execute();
-            //m1 = new SimpleMatrix(3, 4);
-            //m2 = new DisperseMatrix(5, 3);
-            //IniciatorMatrix.fullMatrix(m1,8, 45);
-            //IniciatorMatrix.fullMatrix(m2,6, 45);
-            //Graphics g = Graphics.FromHwnd(panel1.Handle);
-            //Graphics g1 = Graphics.FromHwnd(panel2.Handle);
-            //d = new Sheme1(g, 10, 10);
-            //d1 = new Sheme1(g1, 10, 10);
-            //m1.setDrawer(d);
-            //m2.setDrawer(d1);
-            //m1.draw();
-            //m2.draw();
+           // new CommGen(this).Execute();
+            m1 = new SimpleMatrix(3, 4);
+            m2 = new DisperseMatrix(5, 3);
+            IniciatorMatrix.fullMatrix(m1, 8, 45);
+            IniciatorMatrix.fullMatrix(m2, 6, 45);
+            Graphics g = Graphics.FromHwnd(panel1.Handle);
+            Graphics g1 = Graphics.FromHwnd(panel2.Handle);
+            d = new Sheme1(g, 10, 10);
+            d1 = new Sheme1(g1, 10, 10);
+            m1.setDrawer(d);
+            m2.setDrawer(d1);
+            m1.draw();
+            m2.draw();
         }
 
         
@@ -184,7 +184,16 @@ namespace matrix_shablon
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            CleanMatrix();
+           // new CommRecordValue(this).Execute();
+            Graphics g = Graphics.FromHwnd(panel1.Handle);
+            Graphics g1 = Graphics.FromHwnd(panel2.Handle);
+            d = new Sheme1(g, 10, 10);
+            d1 = new Sheme1(g1, 10, 10);
+            m1 = m1.GetComponent();
+            m2 = m2.GetComponent();
+            RecordValue c = new RecordValue(m1, m2, d, d1);
+            c.record();
         }
 
 

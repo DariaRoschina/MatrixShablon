@@ -47,11 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ASomeMatrix.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="CommandInterface.cs" />
     <Compile Include="CommGen.cs" />
     <Compile Include="CommHideDec.cs" />
     <Compile Include="CommInit.cs" />
     <Compile Include="CommRec.cs" />
+    <Compile Include="CommRecordValue.cs" />
     <Compile Include="CommUnDec.cs" />
     <Compile Include="DisperseMatrix.cs" />
     <Compile Include="DisperseVector.cs" />
