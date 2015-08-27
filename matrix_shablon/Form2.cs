@@ -16,6 +16,7 @@ namespace matrix_shablon
         public Form2()
         {
             InitializeComponent();
+            new CommInit(this).Execute();
         }
         void CleanMatrix()
         {
@@ -32,18 +33,19 @@ namespace matrix_shablon
         private void button1_Click(object sender, EventArgs e)
         {
             CleanMatrix();
-            m1 = new SimpleMatrix(3, 4);
-            m2 = new DisperseMatrix(5, 3);
-            IniciatorMatrix.fullMatrix(m1,8, 45);
-            IniciatorMatrix.fullMatrix(m2,6, 45);
-            Graphics g = Graphics.FromHwnd(panel1.Handle);
-            Graphics g1 = Graphics.FromHwnd(panel2.Handle);
-            d = new Sheme1(g, 10, 10);
-            d1 = new Sheme1(g1, 10, 10);
-            m1.setDrawer(d);
-            m2.setDrawer(d1);
-            m1.draw();
-            m2.draw();
+            new CommGen(this).Execute();
+            //m1 = new SimpleMatrix(3, 4);
+            //m2 = new DisperseMatrix(5, 3);
+            //IniciatorMatrix.fullMatrix(m1,8, 45);
+            //IniciatorMatrix.fullMatrix(m2,6, 45);
+            //Graphics g = Graphics.FromHwnd(panel1.Handle);
+            //Graphics g1 = Graphics.FromHwnd(panel2.Handle);
+            //d = new Sheme1(g, 10, 10);
+            //d1 = new Sheme1(g1, 10, 10);
+            //m1.setDrawer(d);
+            //m2.setDrawer(d1);
+            //m1.draw();
+            //m2.draw();
         }
 
         
@@ -175,27 +177,27 @@ namespace matrix_shablon
             component.draw();
         }
 
-        //private void Form1_Load(object sender, EventArgs e)
-        //{
-        //    radioButton1.Checked = true;
-        //}
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ManagComm.getInstance().remComm();
+        }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    if (radioButton1.Checked == true)
-        //    {
-        //        MessageBox.Show ("You are selected Red !! ");
-        //        return;
-        //    }
-        //    else if (radioButton2.Checked == true)
-        //    {
-        //        MessageBox.Show("You are selected Blue !! ");
-        //        return;
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("You are selected Green !! ");
-        //        return;
-        //    }
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        public Graphics getGraph1()
+        { return Graphics.FromHwnd(panel1.Handle); }
+        public Graphics getGraph2()
+        { return Graphics.FromHwnd(panel2.Handle); }
+        public Graphics getGraph3()
+        { return Graphics.FromHwnd(panel3.Handle); }
+        public Graphics getGraph4()
+        { return Graphics.FromHwnd(panel4.Handle); }
+        public Graphics getGraph5()
+        { return Graphics.FromHwnd(panel5.Handle); }
+     
     }
 }

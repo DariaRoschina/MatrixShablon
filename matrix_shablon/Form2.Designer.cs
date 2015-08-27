@@ -216,8 +216,9 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(99, 30);
             this.button7.TabIndex = 17;
-            this.button7.Text = "button7";
+            this.button7.Text = "изменить";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -225,8 +226,9 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(101, 28);
             this.button8.TabIndex = 18;
-            this.button8.Text = "button8";
+            this.button8.Text = "отменить";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form2
             // 

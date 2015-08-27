@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ASomeMatrix.cs" />
+    <Compile Include="CommandInterface.cs" />
+    <Compile Include="CommGen.cs" />
+    <Compile Include="CommHideDec.cs" />
+    <Compile Include="CommInit.cs" />
+    <Compile Include="CommRec.cs" />
+    <Compile Include="CommUnDec.cs" />
     <Compile Include="DisperseMatrix.cs" />
     <Compile Include="DisperseVector.cs" />
     <Compile Include="Form1.cs">
@@ -65,6 +71,7 @@
     <Compile Include="HorizontMatr.cs" />
     <Compile Include="IDrawer.cs" />
     <Compile Include="IniciatorMatrix.cs" />
+    <Compile Include="ManagComm.cs" />
     <Compile Include="Matrix_interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

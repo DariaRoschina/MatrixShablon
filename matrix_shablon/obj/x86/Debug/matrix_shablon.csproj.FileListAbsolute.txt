@@ -7,3 +7,12 @@ C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_
 C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.exe
 C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.pdb
 C:\Users\Дарья\documents\visual studio 2010\Projects\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.Form2.resources
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.exe
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.pdb
+C:\lab\matrix_shablon\matrix_shablon\bin\Debug\matrix_shablon.exe
+C:\lab\matrix_shablon\matrix_shablon\bin\Debug\matrix_shablon.pdb
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.csprojResolveAssemblyReference.cache
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.Form1.resources
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.Form2.resources
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.Properties.Resources.resources
+C:\lab\matrix_shablon\matrix_shablon\obj\x86\Debug\matrix_shablon.csproj.GenerateResource.Cache
