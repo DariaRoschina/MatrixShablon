@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ASomeMatrix.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="RecordValue.cs" />
     <Compile Include="CommandInterface.cs" />
     <Compile Include="CommGen.cs" />
     <Compile Include="CommHideDec.cs" />
